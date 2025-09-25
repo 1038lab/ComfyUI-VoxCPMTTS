@@ -1,0 +1,16 @@
+[project]
+name = "ComfyUI-VoxCPMTTS"
+description = "A clean, efficient ComfyUI custom node for VoxCPM TTS (Text-to-Speech) functionality. This implementation provides high-quality speech generation and voice cloning capabilities using the VoxCPM model."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+dependencies = ["huggingface_hub>=0.20.0", "einops>=0.6.0", "pydantic>=2.0.0", "wetext>=0.1.0", "openai-whisper>=20231117"]
+    
+[project.urls]
+Repository = "https://github.com/1038lab/ComfyUI-VoxCPMTTS"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "ailab"
+DisplayName = "ComfyUI-VoxCPMTTS"
+Icon = ""
