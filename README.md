@@ -2,7 +2,8 @@
 
 A clean, efficient ComfyUI custom node for VoxCPMTTS (Text-to-Speech) functionality. This implementation provides high-quality speech generation and voice cloning capabilities using the VoxCPM 0.5B and 1.5 model.
 
-![VoxCPMTTX_v1.0.0](example_workflows/VoxCPMTTS_v1.0.0.png) 
+![VoxCPMTTX_v2.0.0](example_workflows/VoxCPMTTS_v2.0.0.png)
+
 
 ## Features
 
