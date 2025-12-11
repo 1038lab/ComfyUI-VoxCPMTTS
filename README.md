@@ -1,8 +1,8 @@
 # ComfyUI VoxCPMTTS Node
 
-A clean, efficient ComfyUI custom node for VoxCPMTTS (Text-to-Speech) functionality. This implementation provides high-quality speech generation and voice cloning capabilities using the VoxCPM model.
+A clean, efficient ComfyUI custom node for VoxCPMTTS (Text-to-Speech) functionality. This implementation provides high-quality speech generation and voice cloning capabilities using the VoxCPM 0.5B and 1.5 model.
 
-![VoxCPMTTX_v1.0.0](example_workflows/VoxCPMTTS_v1.0.0.png)
+![VoxCPMTTX_v1.0.0](example_workflows/VoxCPMTTS_v1.0.0.png) 
 
 ## Features
 
@@ -53,8 +53,8 @@ Optional dependencies for enhanced functionality:
 - `openai-whisper` (fallback for ASR)
 
 ## Model Download
-The VoxCPM-0.5B model (~1.2GB) will be automatically downloaded to `ComfyUI/models/TTS/VoxCPM-0.5B/` on first use.
-https://huggingface.co/openbmb/VoxCPM-0.5B
+VoxCPM1.5 (default) will be automatically downloaded to `ComfyUI/models/TTS/VoxCPM1.5/` on first use. VoxCPM-0.5B is no longer used.
+https://huggingface.co/openbmb/VoxCPM1.5
 
 ## Usage
 
@@ -186,7 +186,7 @@ export COMFYUI_LOG_LEVEL=DEBUG
 
 ## Model Information
 
-This node uses the **VoxCPM-0.5B** model developed by OpenBMB:
+This node uses the **VoxCPM1.5** model developed by OpenBMB:
 
 - **Model Size**: ~500M parameters
 - **Audio Quality**: 16kHz sample rate
