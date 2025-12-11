@@ -46,11 +46,7 @@ The node will automatically install required dependencies on first use:
 - `einops>=0.6.0`
 - `pydantic>=2.0.0`
 - `wetext>=0.1.0`
-- `openai-whisper>=20231117`
-
-Optional dependencies for enhanced functionality:
-- `faster-whisper` (preferred for ASR)
-- `openai-whisper` (fallback for ASR)
+- `faster-whisper`
 
 ## Model Download
 VoxCPM1.5 (default) will be automatically downloaded to `ComfyUI/models/TTS/VoxCPM1.5/` on first use. VoxCPM-0.5B is no longer used.

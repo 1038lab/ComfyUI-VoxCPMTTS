@@ -2,4 +2,5 @@ huggingface_hub>=0.20.0
 einops>=0.6.0
 pydantic>=2.0.0
 wetext>=0.1.0
-openai-whisper>=20231117
+faster-whisper
+soundfile
